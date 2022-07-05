@@ -1,4 +1,6 @@
-
+.flex-container {
+  display: flex;
+}
 html,
 body {
     margin: 0;
