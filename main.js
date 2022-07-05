@@ -2,6 +2,7 @@ function delay(n) {
     n = n || 2000;
     return new Promise((done) => {
         setTimeout(() => {
+   
             done();
         }, n);
     });
@@ -56,3 +57,12 @@ $(function () {
         ],
     });
 });
+
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
